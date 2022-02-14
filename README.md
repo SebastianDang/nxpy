@@ -39,3 +39,9 @@ data = node.get_image()
 node = file.resolve(`Bgm34.img/MapleLeaf')
 data = node.get_sound()
 ```
+
+## Additional Resources
+
+- [NoLifeWzToNx](https://github.com/ryantpayton/NoLifeWzToNx)
+- [nxformat](https://nxformat.github.io/)
+- [harepacker](https://github.com/lastbattle/Harepacker-resurrected)
