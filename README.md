@@ -5,14 +5,14 @@
 #### _NxFile_
 
 ``` python
-file = NxFile(`your-path-to-nx/map.nx`)
+file = NxFile('your-path-to-nx/map.nx')
 ```
 
 #### _NxFileSet_
 
 ``` python
 fileSet = NxFileSet('your-path-to-nx/map.nx', 'your-path-to-nx/sound.nx')
-fileSet.load(`your-path-to-nx/ui.nx')
+fileSet.load('your-path-to-nx/ui.nx')
 ```
 
 ## Retrieving values from data types [long, double, string, point(x, y)]
