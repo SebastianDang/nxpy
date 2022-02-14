@@ -11,7 +11,7 @@ file = NxFile(`your-path-to-nx/map.nx`)
 #### _NxFileSet_
 
 ``` python
-fileSet = NxFileSet(`your-path-to-nx/map.nx', `your-path-to-nx/sound.nx`)
+fileSet = NxFileSet('your-path-to-nx/map.nx', 'your-path-to-nx/sound.nx')
 fileSet.load(`your-path-to-nx/ui.nx')
 ```
 
@@ -36,7 +36,7 @@ data = node.get_image()
 #### _NxSound_
 
 ``` python
-node = file.resolve(`Bgm34.img/MapleLeaf')
+node = file.resolve('Bgm34.img/MapleLeaf')
 data = node.get_sound()
 ```
 
