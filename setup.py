@@ -26,6 +26,11 @@ setup(
   long_description=long_description(),
   long_description_content_type='text/markdown',
   url = "https://github.com/SebastianDang/nxpy",
+  classifiers=[
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+  ],
   packages=['nxpy'],
   install_requires=install_requires,
   extras_require=extras_require
