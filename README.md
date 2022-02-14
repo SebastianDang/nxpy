@@ -1,4 +1,4 @@
-# Nx-Py
+# Python Nx Parser
 
 ## Loading Nx files
 
