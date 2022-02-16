@@ -2,6 +2,7 @@ import lz4.block
 
 def unpack_data_to_rgba8888(data):
     data[0::4], data[2::4] = data[2::4], data[0::4]
+    return data
 
 class NXImage:
 
